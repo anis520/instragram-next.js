@@ -1,0 +1,253 @@
+ 
+
+
+.main{
+ background-color: rgba(128, 128, 128, 0.075);
+ position: relative;
+}
+.main .leftside{
+     position:fixed;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 100vh;
+    border-right: 1px solid rgba(128, 128, 128, 0.438);
+
+}
+.main .leftside .logo{
+    font-family:cursive;
+    font-size: 21px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+.main .leftside p{
+    padding: 8px;
+    display: flex;  
+    font-size: 15px;
+    gap: 20px;
+    transition: .3s;
+     margin:  8px;
+     border-radius: 5px;
+     align-items: center;
+}
+.main .leftside p>*{
+    font-size: 26px;
+    transition: .3s;
+    
+}
+.main .leftside p:hover>*{
+    transform:scale(1.1);
+    
+}
+.main .leftside p:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+
+.main .leftside .more{
+    margin-top: 90px;
+}
+
+
+.main .middle{
+    position:absolute;
+    width: 30%; 
+   
+    margin-left: 17%;  
+}
+
+.main .middle .story{
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    width: 600px;
+     overflow-x: hidden;
+
+}
+ 
+
+
+.main .middle .story .story1{}
+.main .middle .story .story1 img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 2px solid #dd15b0;
+    border: 2px solid transparent;
+}
+.main .middle .story .story1 p{
+    font-size: 11px;
+}
+.main .middle .story .story1{}
+
+
+
+
+
+
+.main .middle .post {
+    margin-left:90px;
+}
+.main .middle .post div{
+    /* height: 460px ; */
+    width: 420px;
+ }
+.main .middle .post div .header{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.main .middle .post div .header img{
+    width: 30px;
+    height: 30px;
+    outline: 2px solid #dd15b0;
+   border: 1px solid transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 7px;
+}
+.main .middle .post div .header p{
+    font-size: 12px;
+    color: grey;
+    font-weight:  bold;
+}
+.main .middle .post div .header p span{
+    margin-left: 5px;
+}
+.main .middle .post div .header h6{
+ font-size: 20px;
+ margin-top: 5px;
+ margin-left: auto;
+}
+.main .middle .post div .body img{
+width: 100%;
+height: auto;
+object-fit: cover;
+margin-top: 10px;
+border-radius: 8px;
+}
+.main .middle .post .footer .icon{
+ margin: 10px 0;
+}
+.main .middle .post .footer .icon>*{
+font-size: 25px;
+ color:rgb(37, 37, 37);
+margin-right:18px;
+
+
+
+
+}
+.main .middle .post .footer .icon>*:last-child{
+    margin-left: 63%;
+    margin-right: 0;
+}
+.main .middle .post .footer .like p{
+    margin: 5px 0;
+    font-size: 13px ;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+.main .middle .post input{
+    border: none;
+    padding: 5px 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.main .middle .post input:focus{
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.219);
+    border-radius: 10px;
+}
+
+
+
+
+
+.main .right{
+    width:30%;
+    padding: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+ 
+}
+
+
+.main .right .profile{
+ 
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.main .right .profile img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main .right .profile div p{
+    font-size: 15px;
+    color: rgb(65, 63, 63);
+    font-weight: 500;
+}
+.main .right .profile p{
+    color: rgb(5, 106, 238);
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+
+.main .right .follow p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(116, 114, 114);
+}
+.main .right .follow p span{
+    margin-left:110px;
+     color: black;
+}
+
+
+.main .right .follow .su{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    gap: 5px;
+}
+.main .right .follow .su img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    object-fit: cover;
+
+}
+
+.main .right .follow p{
+    margin-top: 15px;
+    
+}
+
+.main .right .follow .su div p{
+font-size: 13px;
+margin: 0;
+}
+
+.main .right .follow .su >:last-child{
+color: rgb(5, 106, 238);
+    margin-left: auto;
+    font-size: 12px;
+}

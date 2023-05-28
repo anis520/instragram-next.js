@@ -1,0 +1,170 @@
+ .main{
+  margin-top: 10px;
+   
+
+
+
+ }
+
+
+ .main .body{
+  
+  width: 27%;
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  margin: auto;
+  text-align: center;
+  border-radius: 2px;
+  padding: 20px;
+ }
+
+ .main .body h2{
+  font-family:cursive;
+  font-size: 28px;
+  }
+
+  .main .body h4{
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .main .body .fb{
+    display: flex;
+    align-items: center;
+      height: 28px;
+      padding: 5px;
+      margin: 17px;
+      gap: 5px;
+      border-radius: 5px;
+      color: white;
+    background-color:#1876f2d8;
+    justify-content:center;
+    transition: .3s;
+    
+  }
+
+.main .body .fb:hover{
+  cursor: pointer;
+  background-color: #1877F2;
+}
+
+
+  .main .body .fb p{
+    font-size:14px;
+
+  }
+
+
+
+  .main .body .or{
+    display: flex;
+    margin:0 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .main .body .or hr{
+    
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.192);
+    opacity: 40%;
+    
+
+    
+  }
+  .main .body .or p{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+    margin: 0;
+  }
+
+  .main .body .input{
+    margin: 0 20px;
+  }
+
+  .main .body .input input{
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.055);
+    margin: 4px 0;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 3px;
+  }
+  /* .main .body .input input{} */
+
+
+
+  .main .body .text p{
+
+    font-size: 11px;
+    color: grey;
+    margin: 20px;
+  }
+  .main .body .text p span{
+    font-weight: bold;
+    color: rgb(16, 27, 56);
+  }
+  .main .body .button button{
+    background-color: #4CB5F9;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    width: 90%;
+    font-weight: bold;
+    padding: 5px 0;
+    border-radius: 5px;
+  }
+
+
+
+
+/* footer button  */
+
+
+.main .login{
+  
+  width: 27%;
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  margin:20px auto 0;
+  text-align: center;
+  border-radius: 2px;
+  padding: 20px;
+ }
+
+ .main .login p{
+  font-size: 13px;
+ }
+
+ .main .login p span{
+  color: #1877F2;
+  cursor: pointer;
+  font-weight: bold;
+ }
+
+
+
+ .main .app{
+  width: 27%;
+   margin:  auto;
+  text-align: center;
+  border-radius: 2px;
+  padding: 20px;
+ }
+ .main .app div{
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+ }
+
+ .main .app div img{
+  width: 45%;
+  height: 40px;
+ }
+ .main .app p{
+   margin: 0;
+   font-size: 13px;
+  
+ }
